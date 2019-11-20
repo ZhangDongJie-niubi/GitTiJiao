@@ -1,0 +1,6 @@
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:+'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:+'
+    implementation 'com.android.support:appcompat-v7:28.+'
+}

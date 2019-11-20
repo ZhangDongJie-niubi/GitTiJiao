@@ -1,0 +1,2 @@
+include ':app', ':qimojinengd', ':qimojinengbce', ':qimojinengc', ':qimojineng1', ':qimojineng03', ':qimojineng4', ':qimojineng5', ':qimojinenge', ':lianxi1234', ':xday2', ':ce003', ':danli', ':jianzaozhe', ':ce005', ':base', ':ce009', ':mvpchouqu', ':ce011', ':ce013', ':diti', ':shujuku', ':ce017', ':achang'
+rootProject.name='zhoukao'

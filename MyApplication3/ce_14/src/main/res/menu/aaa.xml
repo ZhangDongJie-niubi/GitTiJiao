@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/ont" android:title="玩Android" android:icon="@drawable/home"/>
+    <item android:icon="@drawable/icon_music" android:title="我的音乐" android:id="@+id/two"/>
+    <item android:icon="@drawable/icon_video" android:id="@+id/three" android:title="我的视频"/>
+    <item android:icon="@drawable/icon_settings" android:id="@+id/fore" android:title="设置"/>
+
+</menu>

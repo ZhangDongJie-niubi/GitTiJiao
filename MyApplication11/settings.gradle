@@ -1,0 +1,2 @@
+include ':app', ':lian', ':xiazai', ':shangchuan', ':qimojinenga', ':shipin', ':qimojinengaa', ':qimojinengaaa', ':qimojinengdd', ':xiangmu', ':lianxi500'
+rootProject.name='My Application11'

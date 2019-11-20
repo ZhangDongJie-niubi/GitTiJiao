@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<Button
+    android:id="@+id/da"
+    android:text="111"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/tong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取通讯录" />
+    <Button
+        android:id="@+id/duan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取短信" />
+    <Button
+        android:id="@+id/tu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取图片" />
+    <Button
+        android:id="@+id/shi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 获取视频"
+ />
+    <Button
+        android:id="@+id/yin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取音频" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">mvpchouqu</string>
+    <string name="ribao">日报</string>
+    <string name="zhuti">主题</string>
+    <string name="zhuanlan">专栏</string>
+    <string name="remen">热门</string>
+</resources>

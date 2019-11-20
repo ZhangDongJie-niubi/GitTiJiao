@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/one" android:title="玩Android" android:icon="@drawable/icon_home_pager_not_selected"/>
+    <item android:id="@+id/two" android:title="我的音乐" android:icon="@drawable/icon_home_pager_not_selected"/>
+    <item android:id="@+id/three" android:title="我的视频" android:icon="@drawable/icon_home_pager_not_selected"/>
+    <item android:id="@+id/fore" android:title="设置" android:icon="@drawable/icon_home_pager_not_selected"/>
+
+</menu>

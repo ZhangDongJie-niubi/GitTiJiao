@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.Toolbar>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:background="#00FF04"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="490dp">
+            <RadioGroup
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+              >
+            <RadioButton
+                android:button="@null"
+
+                android:background="@drawable/li_selector"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:text="首页"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+            <RadioGroup
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:button="@null"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/ya_selector"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                />
+                <TextView
+                    android:text="知识体系"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:button="@null"
+                    android:layout_width="40dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ru_selector"/>
+                <TextView
+                    android:text="公众号"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content">
+                <RadioButton
+
+                    android:button="@null"
+                    android:layout_width="40dp"
+                    android:background="@drawable/zhang_selector"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:text="导航"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:button="@null"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/dong_selector"/>
+                <TextView
+                    android:text="项目"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+        </RadioGroup>
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nv"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        app:headerLayout="@layout/two"
+        app:menu="@menu/aaa">
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

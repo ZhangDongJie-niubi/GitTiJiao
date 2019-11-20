@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".ThreeActivity">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:background="#ff00ff"
+    android:layout_width="match_parent"
+    android:layout_height="30dp">
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:text="修改"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button android:id="@+id/but"
+        android:backgroundTint="#ff00ff"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="165dp"
+    android:background="#ffffff"
+        android:textColor="#ffffff"
+    android:text="確認修改"
+    android:textSize="25sp" />
+</LinearLayout>
+
+
+
+
+    <ImageView
+        android:id="@+id/ivv"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

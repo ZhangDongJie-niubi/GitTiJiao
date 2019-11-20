@@ -1,0 +1,1 @@
+include ':app', ':myapplication', ':getpost', ':getpost1', ':shuaxinjiazai', ':shuzujiexi', ':day2', ':ce1', ':day3', ':ce1_2', ':zongheti', ':day4', ':day4_1', ':ce3_2', ':greendao', ':retrofitzhujie', ':day22', ':day58'

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/jiben"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="基本使用" />
+
+        <Button
+            android:id="@+id/lianshi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="链式调用" />
+
+        <Button
+            android:id="@+id/jiandan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="简单" />
+
+        <Button
+            android:id="@+id/shuzu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数组" />
+
+        <Button
+            android:id="@+id/hebing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="合并" />
+
+        <Button
+            android:id="@+id/fanwei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="范围" />
+
+        <Button
+            android:id="@+id/dingshi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="定时器" />
+
+        <Button
+            android:id="@+id/shanping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="闪屏页" />
+
+        <Button
+            android:id="@+id/guolv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="过滤" />
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="map" />
+
+        <Button
+            android:id="@+id/flatmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="flatmap" />
+
+        <Button
+            android:id="@+id/zip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="zip" />
+
+        <Button
+            android:id="@+id/zhong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rxjava Retfi結合" />
+    </LinearLayout>
+</ScrollView>

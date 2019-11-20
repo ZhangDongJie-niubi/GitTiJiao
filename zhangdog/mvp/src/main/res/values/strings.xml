@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_header_news1">GeekNews</string>
+    <string name="ribao">日报</string>
+    <string name="zhuti">主题</string>
+    <string name="zhuanlan">专栏</string>
+    <string name="remen">热门</string>
+    <string name="nav_open">打开</string>
+    <string name="nav_close">关闭</string>
+</resources>

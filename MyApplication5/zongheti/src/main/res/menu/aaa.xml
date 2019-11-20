@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="我的" android:icon="@drawable/follow"/>
+    <item android:icon="@drawable/follow" android:title="你的"/>
+</menu>
